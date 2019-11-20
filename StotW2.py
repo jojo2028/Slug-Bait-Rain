@@ -1,10 +1,11 @@
 #! python3
 # stopwatch.py - A simple stopwatch program.
+# self-defercation is not attractive
 
 import time
 
 # Display the program's instructions.
-print('Press enter because you are not a dumb-ass to begin. Afterwards, press ENTER to "click" the stopwatch. Press Ctrl-C to quit.')
+print('Press enter because you are mostly not a dumb-ass to begin. Afterwards, press ENTER to "click" the stopwatch. Press Ctrl-C to quit.')
 input() # press Enter to begin
 print('Started.')
 startTime = time.time() # get the first lap's start time
