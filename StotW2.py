@@ -1,6 +1,5 @@
 #! python3
 # stopwatch.py - A simple stopwatch program.
-# self-defercation is not attractive
 
 import time
 
